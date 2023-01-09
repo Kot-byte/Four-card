@@ -1,0 +1,358 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    background-color: #FAFAFA;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 15px;
+   
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4F5062;
+    margin-bottom: 5px;
+  
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4F5062;
+    margin-bottom: 5px;
+}
+
+.desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #A3A3A3;
+    margin-bottom: 40px;
+    width: 30em;
+    text-align: center;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-bottom: 45px;
+ 
+   
+    grid-column-gap: 15px;
+
+}
+
+.idcard {
+    padding: 35px 35px;
+
+}
+
+.card1 {
+    margin-top: 30%;
+    margin-left: auto;
+    background: #FFFFFF;
+    border-top: 4px solid #42D4D3;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    width: 349px;
+    height: 252px;
+
+
+
+}
+
+.card2-3 {
+
+/*    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 35px;*/
+}
+
+.card2 {
+    margin: auto;
+    width: 349px;
+    height: 252px;
+
+    background: #FFFFFF;
+    border-top: 4px solid #529FF1;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-bottom: 45px;
+
+}
+
+.card3 {
+    margin: auto;
+    width: 349px;
+    height: 252px;
+
+    background: #FFFFFF;
+    border-top: 4px solid #FBAD4B;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.card4 {
+    margin-top: 30%;
+    margin-right: auto;
+    width: 349px;
+    height: 252px;
+
+    background-color: #FFFFFF;
+    border-top: 4px solid #EA5453;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+
+
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4C5063;
+    margin-bottom: 1em;
+}
+
+.title-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #A3A3A3;
+    margin-bottom: 2em;
+
+}
+
+.icon {
+
+    float: right;
+    width: auto;
+    height: auto;
+
+}
+@media screen and (max-width: 765px) {
+    
+    .cards{
+      /*  display: inline-block;*/
+      display: grid;
+      grid-template-columns: auto;
+      grid-column-gap: 15px;
+      margin-top: 0;
+      margin-bottom: 45px;
+
+     
+    }
+  .idcard{
+margin:0;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 15px;
+    
+  }
+
+  h1 {
+    margin-bottom: 2px;
+    font-weight: 200;
+    font-size: 28px;
+   
+  
+}
+
+h2 {
+ 
+    font-size: 28px;
+  
+}
+
+.desc {
+   
+    font-size: 12px;
+    
+    width: 100%;
+  
+}
+    
+}
